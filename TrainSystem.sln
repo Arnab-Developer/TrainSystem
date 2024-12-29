@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainSystem", "TrainSystem\TrainSystem.csproj", "{066B7CD5-A902-422E-BA43-0A426BDD12B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainSystemTest", "TrainSystemTest\TrainSystemTest.csproj", "{9EDD7BDF-90C2-4C42-A7EA-F40DE365EA6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C69E878-BD15-4D7D-AD6D-D10C3A0C3586}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE.txt = LICENSE.txt
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066B7CD5-A902-422E-BA43-0A426BDD12B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066B7CD5-A902-422E-BA43-0A426BDD12B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066B7CD5-A902-422E-BA43-0A426BDD12B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066B7CD5-A902-422E-BA43-0A426BDD12B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDD7BDF-90C2-4C42-A7EA-F40DE365EA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDD7BDF-90C2-4C42-A7EA-F40DE365EA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDD7BDF-90C2-4C42-A7EA-F40DE365EA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDD7BDF-90C2-4C42-A7EA-F40DE365EA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51003DD0-5BED-4562-ADA4-436828B774BB}
+	EndGlobalSection
+EndGlobal

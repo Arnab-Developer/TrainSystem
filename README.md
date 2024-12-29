@@ -5,5 +5,7 @@ A demo to show how to stop a train if door opens.
 ```mermaid
 flowchart
 
-TrainStart --> DoorOpen --> TrainStop
+Start --> IsAllDoorClosed
+IsAllDoorClosed -- Yes --> TrainStart
+IsAllDoorClosed -- No --> TrainDoNotStart
 ```

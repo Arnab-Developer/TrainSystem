@@ -11,7 +11,7 @@ Stop@{ shape: circle, label: "Stop" }
 IsAllDoorClosed@{ shape: diamond, label: "Is all doors closed?" }
 TrainStart@{ shape: rect, label: "Start the engine" }
 TrainDoNotStart@{ shape: rect, label: "Do not start the engine" }
-DoorOpen@{ shape: event, label: "Door Open" }
+DoorOpen@{ shape: event, label: "Open a door" }
 EmergencyBreak@{ shape: rect, label: "Activate emergency break" }
 StopTrain@{ shape: rect, label: "Stop the engine" }
 
